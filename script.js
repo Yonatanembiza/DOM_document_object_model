@@ -27,3 +27,10 @@ document.body.appendChild(divE);
 // document.body.appendChild(divElement);
 
 console.dir(document.body.children)
+function hello(){
+    console.log("hello!")
+    return
+}
+hello();
+let ret = hello();
+console.log(ret);
